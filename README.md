@@ -1,7 +1,7 @@
-# Homebrew tap for Edith
+# Homebrew tap
 
 ```
-brew install --cask pulkitxm/edith/edith
+brew install --cask pulkitxm/tap/edith
 ```
 
 Edith is a native menu bar control center for the Mac: live usage limits for
