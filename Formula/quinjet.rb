@@ -1,19 +1,19 @@
 class Quinjet < Formula
   desc "Fast, live, keyboard-first Git source-control interface for the terminal"
   homepage "https://quinjet.pulkit.page/"
-  version "0.0.66"
+  version "0.0.67"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/pulkitxm/quinjet/releases/download/v#{version}/quinjet-macos-aarch64",
           verified: "github.com/pulkitxm/quinjet/"
-      sha256 "3e7b1717650637b0728a708686ae8dfc53fb7f3e9b7229142c5e19b0347592b0"
+      sha256 "c94f85fd4f34b7e1bf5474ed1ec3f29d34548d22ddc7b1c9ff0db164ba89a74c"
     end
     on_intel do
       url "https://github.com/pulkitxm/quinjet/releases/download/v#{version}/quinjet-macos-x86_64",
           verified: "github.com/pulkitxm/quinjet/"
-      sha256 "dfd178ab48d19a69b563838f3e62d8b588ae0796e31fe532b3de57a872e1feb9"
+      sha256 "13aefe293d3e8a6ee18b23b025bad2fa8350392900b7f22641c37bd7f9955ab2"
     end
   end
 
@@ -21,12 +21,12 @@ class Quinjet < Formula
     on_arm do
       url "https://github.com/pulkitxm/quinjet/releases/download/v#{version}/quinjet-linux-aarch64",
           verified: "github.com/pulkitxm/quinjet/"
-      sha256 "847270808c11f51026a1f55ff77563edf200a0eface1de65819cfe8a6a38c948"
+      sha256 "ae4d2ad4dfe0fb8b2a96187ca7371856678f2e1b9d9c90f74440aa0eae48e437"
     end
     on_intel do
       url "https://github.com/pulkitxm/quinjet/releases/download/v#{version}/quinjet-linux-x86_64",
           verified: "github.com/pulkitxm/quinjet/"
-      sha256 "d97a1732c5f9cb5fc9550b3bf1b61104f27a0a832990a3a28d158da3e06e6f21"
+      sha256 "0399c7b6cea0afcd8902d1c25de44ec0cc6caaff1e001287f65f74ee233efd1d"
     end
   end
 
