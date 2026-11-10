@@ -1,9 +1,9 @@
 cask "edith" do
-  version "1.0.11"
-  sha256 "a1541713306c09f0b8e545fa71eb60dabea3cdcc1ee42fbb1334cf0167c98982"
+  version "1.0.12"
+  sha256 "2cde0328f5230ef3462e83cc0b62e59bff2ee7eda784d4f9c4ec034a02d3da09"
 
-  url "https://github.com/pulkitxm/edith/releases/download/v#{version}/Edith.dmg",
-      verified: "github.com/pulkitxm/edith/"
+  url "https://github.com/pulkitxm/edith-releases/releases/download/v#{version}/Edith.dmg",
+      verified: "github.com/pulkitxm/edith-releases/"
   name "Edith"
   desc "Menu bar control center for coding agents, clipboard, music, and disk tools"
   homepage "https://edith.pulkit.page/"
