@@ -1,6 +1,6 @@
 cask "edith" do
-  version "1.0.18"
-  sha256 "52717490057a15bff9e24a24fec3ae87daed33b71b1e27c9df98b892515fd8b1"
+  version "1.0.19"
+  sha256 "b7b04e885665dc24a707e79d49dd6c80f4b703c3bc5fbf3c2fcdd4149612089b"
 
   url "https://github.com/pulkitxm/edith-releases/releases/download/v#{version}/Edith.dmg",
       verified: "github.com/pulkitxm/edith-releases/"
