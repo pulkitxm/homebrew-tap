@@ -6,7 +6,7 @@ cask "edith" do
       verified: "github.com/pulkitxm/edith-releases/"
   name "Edith"
   desc "Menu bar control center for coding agents, clipboard, music, and disk tools"
-  homepage "https://edith.pulkit.page/"
+  homepage "https://getedith.pro/"
 
   livecheck do
     url :url
